@@ -1,6 +1,6 @@
 let nombreIngresado = prompt ("Ingrese su nombre");
 
-while (nombreIngresado.toUpperCase() != "ESC"){
+while (nombreIngresado.toUpperCase()){
     nombreIngresado = prompt ("Hola" +" " + nombreIngresado + " " + "bienvenid@ al taller");
 }
 let servicios = propmt ("Ingrese un servicio deseado:\n \n Lavado de vehículo\n Cambio de aceite y filtro\n Pulido detailing\n Mecánica ligera\n Limpieza de interiores\n Revisión y reparación de frenos").toUpperCase();
